@@ -1,0 +1,26 @@
+Final Model Selection
+
+XGBClassifier(base_score=0.5, booster='gbtree', class_weight=None,
+             colsample_bylevel=1, colsample_bynode=1, colsample_bytree=0.8,
+             gamma=0.5, gpu_id=-1, importance_type='gain',
+             interaction_constraints='', learning_rate=0.1, max_delta_step=0,
+             max_depth=20, min_child_weight=1, missing=nan,
+             monotone_constraints='()', n_estimators=100, n_jobs=8,
+             num_parallel_tree=1, random_state=0, reg_alpha=0, reg_lambda=1,
+             scale_pos_weight=1, subsample=0.8, tree_method='exact',
+             validate_parameters=1, verbosity=None)
+
+Confusion matrix:
+
+ [[25068   286]
+ [    0 25316]]
+
+Classification report:
+                precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99     25354
+           1       0.99      1.00      0.99     25316
+
+    accuracy                           0.99     50670
+   macro avg       0.99      0.99      0.99     50670
+weighted avg       0.99      0.99      0.99     50670
